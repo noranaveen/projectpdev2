@@ -3,8 +3,8 @@
   --primary: #3C2F7F;
   --primary-dark: #2a1f5a;
   --primary-light: #5a4fa0;
-  --secondary: #FF6B35;
-  --secondary-light: #FFB703;
+  --secondary: #4169E1; /* royal blue */
+  --secondary-light: #5a76e8; /* lighter royal */
   --accent: #10b981;
   --text-dark: #1a1a1a;
   --text-light: #4a4a4a; /* darker for improved contrast */
@@ -252,7 +252,7 @@ header .container {
 }
 
 .btn.primary:hover {
-  background: #e55a2b;
+  background: #3152b0; /* darker royal */
   box-shadow: var(--shadow-lg);
   transform: translateY(-2px);
 }
@@ -724,7 +724,7 @@ footer .btn.primary {
 }
 
 footer .btn.primary:hover {
-  background: #e55a2b;
+  background: #3152b0;
 }
 
 /* highlight programs & research in nav */
