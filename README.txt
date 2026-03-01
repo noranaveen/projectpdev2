@@ -2,7 +2,7 @@ Project Pulmonary (static site)
 
 1) Upload these files to a GitHub repo
 2) Enable GitHub Pages: Settings → Pages → Deploy from branch (main) → /(root)
-3) Replace YOUR_SITE_URL across files with your real GitHub Pages URL, e.g.
+3) Replace YOUR_SITE_URL across files with your real GitHub Pages URL, e.g. https://noranaveen.github.io/projectpdev2
    https://USERNAME.github.io/REPO
 
 Donation embed:
