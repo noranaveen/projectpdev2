@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>YOUR_SITE_URL/</loc></url>
+  <url><loc>YOUR_SITE_URL/about.html</loc></url>
+  <url><loc>YOUR_SITE_URL/programs.html</loc></url>
+  <url><loc>YOUR_SITE_URL/research.html</loc></url>
+  <url><loc>YOUR_SITE_URL/gallery.html</loc></url>
+  <url><loc>YOUR_SITE_URL/donate.html</loc></url>
+</urlset>
