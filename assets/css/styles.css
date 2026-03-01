@@ -716,6 +716,34 @@ footer .note {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/* buttons in footer partner link */
+footer .btn.primary {
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  background: var(--secondary);
+}
+
+footer .btn.primary:hover {
+  background: var(--secondary-light);
+}
+
+/* highlight programs & research in nav */
+.navlinks a[href="programs.html"],
+.navlinks a[href="research.html"] {
+  color: var(--secondary);
+}
+
+.navlinks a[href="programs.html"]:hover,
+.navlinks a[href="research.html"]:hover {
+  color: var(--secondary-light);
+}
+
+/* optional pulse animation for attention 
+   add class="pulse" where desired */
+.navlinks a.pulse {
+  animation: pulse 3s ease-in-out infinite;
+}
+
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -745,6 +773,22 @@ footer .note {
 
 .text-secondary {
   color: var(--secondary);
+}
+
+/* special link type used for "See Programs" and nav highlights */
+.secondary-link {
+  color: var(--secondary);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.secondary-link:hover,
+.secondary-link:focus {
+  color: var(--secondary-light);
+}
+
+/* pulsing effect for attention-grab elements */
+.pulse {
+  animation: pulse 3s ease-in-out infinite;
 }
 
 .text-light {
@@ -802,12 +846,59 @@ footer .note {
   }
 }
 
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.85;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .fade-in {
   animation: fadeIn 0.5s ease-out;
 }
 
 .slide-in {
   animation: slideIn 0.4s ease-out;
+}
+
+.count-up {
+  animation: countUp 0.6s ease-out;
+}
+
+.pulse-effect {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.slide-up {
+  animation: slideUp 0.6s ease-out;
+}
+
+section {
+  animation: fadeIn 0.8s ease-out;
 }
 
 /* Responsive Design */
