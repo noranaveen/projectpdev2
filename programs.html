@@ -122,41 +122,41 @@
 
 <section id="start" aria-label="Start a chapter" style="padding: 5rem 1.5rem; background: linear-gradient(135deg, #f9fafb 0%, #e8eef5 100%);">
   <div class="container">
-    <div style="text-align: center; margin-bottom: 3rem;">
-      <span style="display: inline-block; background: #FF6B35; color: white; padding: 0.5rem 1.5rem; border-radius: 50px; font-weight: 600; font-size: 0.9rem; margin-bottom: 1.5rem;">🚀 Join Our Movement</span>
-      <h2 style="color: #3C2F7F; margin-bottom: 1rem;">Start a Chapter</h2>
-      <p style="color: var(--text-light); max-width: 600px; margin: 0 auto; font-size: 1.05rem;">Every community deserves a voice for firefighter health. Tell us about your vision, and we'll support you with resources, guidance, and a nationwide network of chapters.</p>
+    <div style="text-align: center; margin-bottom: 3rem; animation: slideUp 0.8s ease-out;">
+      <span style="display: inline-block; background: linear-gradient(135deg, #FF6B35 0%, #ff5520 100%); color: white; padding: 0.6rem 1.8rem; border-radius: 50px; font-weight: 700; font-size: 0.9rem; margin-bottom: 1.5rem; box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3); transition: all 0.3s ease;">🚀 Join Our Movement</span>
+      <h2 style="color: #3C2F7F; margin-bottom: 1rem; font-size: 2.75rem;">Start a Chapter</h2>
+      <p style="color: var(--text-light); max-width: 650px; margin: 0 auto; font-size: 1.1rem; line-height: 1.7;">Every community deserves a voice for firefighter health. Tell us about your vision, and we'll support you with resources, guidance, and a nationwide network of chapters.</p>
     </div>
 
-    <form class="card" data-form="chapter" data-email="projectpulmonary@gmail.com" style="max-width:760px; margin: 0 auto; background: white; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08); border: none;">
+    <form class="card" data-form="chapter" data-email="projectpulmonary@gmail.com" style="max-width:800px; margin: 0 auto; background: white; box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1); border: none; border-radius: 1rem; animation: fadeIn 1s ease-out;">
       <div data-notice></div>
 
-      <div class="grid-2" style="margin-top:12px;">
-        <div>
-          <label for="name" style="display:block;margin-bottom:6px;font-weight:800; color: #3C2F7F;">Name</label>
-          <input class="input" id="name" name="name" required placeholder="Full name" style="border: 2px solid #e5e7eb; border-radius: 8px;" />
+      <div class="grid-2" style="margin-top:20px; gap: 1.5rem;">
+        <div style="animation: slideUp 0.8s ease-out 0.1s both;">
+          <label for="name" style="display:block;margin-bottom:8px;font-weight:800; color: #3C2F7F; font-size: 0.95rem;">Full Name</label>
+          <input class="input" id="name" name="name" required placeholder="Jane Smith" style="border: 2px solid #e5e7eb; border-radius: 10px; padding: 0.8rem; transition: all 0.3s ease; font-size: 0.95rem;" />
         </div>
-        <div>
-          <label for="email" style="display:block;margin-bottom:6px;font-weight:800; color: #3C2F7F;">Email</label>
-          <input class="input" id="email" name="email" type="email" required placeholder="you@example.com" style="border: 2px solid #e5e7eb; border-radius: 8px;" />
+        <div style="animation: slideUp 0.8s ease-out 0.15s both;">
+          <label for="email" style="display:block;margin-bottom:8px;font-weight:800; color: #3C2F7F; font-size: 0.95rem;">Email Address</label>
+          <input class="input" id="email" name="email" type="email" required placeholder="jane@example.com" style="border: 2px solid #e5e7eb; border-radius: 10px; padding: 0.8rem; transition: all 0.3s ease; font-size: 0.95rem;" />
         </div>
       </div>
 
-      <div style="margin-top:12px;">
-        <label for="region" style="display:block;margin-bottom:6px;font-weight:800; color: #3C2F7F;">City / State</label>
-        <input class="input" id="region" name="region" required placeholder="e.g., Denton, TX" style="border: 2px solid #e5e7eb; border-radius: 8px;" />
+      <div style="margin-top:20px; animation: slideUp 0.8s ease-out 0.2s both;">
+        <label for="region" style="display:block;margin-bottom:8px;font-weight:800; color: #3C2F7F; font-size: 0.95rem;">City / State</label>
+        <input class="input" id="region" name="region" required placeholder="e.g., Denton, TX" style="border: 2px solid #e5e7eb; border-radius: 10px; padding: 0.8rem; transition: all 0.3s ease; font-size: 0.95rem;" />
       </div>
 
-      <div style="margin-top:12px;">
-        <label for="message" style="display:block;margin-bottom:6px;font-weight:800; color: #3C2F7F;">Your plan (short)</label>
-        <textarea class="input" id="message" name="message" required style="min-height:130px; border: 2px solid #e5e7eb; border-radius: 8px;" placeholder="What will you do first (drive, letters, awareness)? Which station will you support?"></textarea>
+      <div style="margin-top:20px; animation: slideUp 0.8s ease-out 0.25s both;">
+        <label for="message" style="display:block;margin-bottom:8px;font-weight:800; color: #3C2F7F; font-size: 0.95rem;">Your Vision (Tell us your plan)</label>
+        <textarea class="input" id="message" name="message" required style="min-height:140px; border: 2px solid #e5e7eb; border-radius: 10px; padding: 0.8rem; transition: all 0.3s ease; font-size: 0.95rem; resize: vertical;" placeholder="What will you do first? (drive, letters, awareness) Which station will you support?"></textarea>
       </div>
 
-      <div class="hero-actions" style="margin-top:14px;">
-        <button class="btn primary" type="submit" style="background: linear-gradient(135deg, #FF6B35 0%, #ff5520 100%); border: none; padding: 0.9rem 2rem; font-weight: 600;">🚀 Start My Chapter</button>
-        <a class="btn" href="donate.html" style="background: white; border: 2px solid #3C2F7F; color: #3C2F7F; padding: 0.8rem 1.8rem;">Support Us</a>
+      <div class="hero-actions" style="margin-top:24px; gap: 1rem; animation: slideUp 0.8s ease-out 0.3s both;">
+        <button class="btn primary" type="submit" style="background: linear-gradient(135deg, #FF6B35 0%, #ff5520 100%); border: none; padding: 1rem 2.5rem; font-weight: 700; font-size: 1rem; box-shadow: 0 8px 20px rgba(255, 107, 53, 0.3); transition: all 0.3s ease; cursor: pointer;">🚀 Start My Chapter</button>
+        <a class="btn ghost" href="donate.html" style="padding: 0.95rem 2rem; border: 2px solid #3C2F7F; color: #3C2F7F; font-weight: 600; transition: all 0.3s ease;">Support Our Work</a>
       </div>
-      <p class="note" style="color: #999; font-size: 0.85rem; margin-top: 1rem;">✓ We'll respond within 48 hours with resources and guidance</p>
+      <p class="note" style="color: #999; font-size: 0.85rem; margin-top: 1.5rem; text-align: center;">✓ We'll respond within 48 hours with resources and next steps</p>
     </form>
   </div>
 </section>
