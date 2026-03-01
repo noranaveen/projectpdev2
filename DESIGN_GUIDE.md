@@ -62,7 +62,7 @@ The website follows these key principles:
 ### Primary Colors
 - **Primary Purple**: `#3C2F7F` - Organization's main color
 - **Dark Purple**: `#2a1f5a` - Darker shade for depth
-- **Secondary Orange**: `#FF6B35` - Accent color for action items
+- **Secondary Accent (changed from orange)**: use `var(--secondary)` for action items (default royal blue)
 - **Light Gold**: `#FFB703` - Highlight color for statistics
 
 ### Text Colors
@@ -97,7 +97,7 @@ Edit `assets/css/styles.css` root variables (lines 1-20):
 ```css
 :root {
   --primary: #3C2F7F;  /* Change this color */
-  --secondary: #FF6B35; /* Change this color */
+  --secondary: #FF6B35; /* Change this color; typically royal blue but can be set universally */
 }
 ```
 

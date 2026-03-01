@@ -137,7 +137,7 @@ To get your site working immediately with placeholder images:
 # Create placeholder images (600x400px red background)
 # Using ImageMagick (if installed)
 convert -size 600x400 xc:#3C2F7F assets/img/pillars.jpg
-convert -size 600x400 xc:#FF6B35 assets/img/firefighter-health.jpg
+convert -size 600x400 xc:var(--secondary) assets/img/firefighter-health.jpg
 convert -size 1920x600 xc:#2a1f5a assets/img/hero-bg.jpg
 ```
 
