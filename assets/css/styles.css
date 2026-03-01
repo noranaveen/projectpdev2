@@ -7,7 +7,7 @@
   --secondary-light: #FFB703;
   --accent: #10b981;
   --text-dark: #1a1a1a;
-  --text-light: #666666;
+  --text-light: #4a4a4a; /* darker for improved contrast */
   --text-lighter: #999999;
   --border-light: #e5e7eb;
   --bg-light: #f9fafb;
