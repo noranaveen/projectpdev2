@@ -3,7 +3,7 @@
   --primary: #3C2F7F;
   --primary-dark: #2a1f5a;
   --primary-light: #5a4fa0;
-  --secondary: #4169E1; /* royal blue */
+  --secondary: #2a1f5a; /* darker blue accent */
   --secondary-light: #5a76e8; /* lighter royal */
   --accent: #10b981;
   --text-dark: #1a1a1a;
@@ -276,7 +276,7 @@ header .container {
 }
 
 .btn:not(.btn.primary):not(.btn.ghost):hover {
-  color: #e55a2b;
+  color: var(--secondary);
   text-decoration: underline;
 }
 
@@ -291,7 +291,7 @@ header .container {
 }
 
 .btn-secondary:hover {
-  background: #e55a2b;
+  background: var(--secondary);
   box-shadow: var(--shadow-lg);
 }
 
